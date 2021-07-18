@@ -1,0 +1,68 @@
+body{
+    padding: 5px;
+    margin: 5px;
+    border: 10px;
+    background: rgb(189, 189, 207);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(jags.jpg);
+    background-size: cover;
+    
+
+}
+h1{
+    text-align: center;
+}
+h3{
+    padding: 30px;
+    margin: 60px;
+    border: 20px;
+    transition: linear;
+    border: solid;
+    border-radius: 40px;
+    transition: 300ms;
+    background: turquoise;
+    cursor: pointer;
+      
+}
+button{
+    background-color: aqua;
+    color: blue;
+    border-radius: 5PX;
+    transition: 300ms linear;
+    transform: scale(1);
+    border: solid red 0.1px;
+    margin: 3px;
+}
+button:focus{
+    transform: scale(1.6);
+}
+article body{
+    background: rgb(47, 0, 255);
+    background-color: blue;
+    margin: 20px;
+}
+h3:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 5);
+    border-top-color: aqua;
+    border-bottom-color: aqua;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 0, 0, 0.7),
+        rgba(255, 0,0, 0.1)
+    );
+    backdrop-filter: blur(3rem);
+    z-index: 3;
+    
+}
+h4{
+    background: royalblue;
+    background-color: royalblue;
+    color: royalblue;
+    border: solid rgb(240, 225, 225);
+    border-radius: 10px;
+    text-shadow: 5px;
+}
